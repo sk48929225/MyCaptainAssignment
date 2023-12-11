@@ -1,9 +1,9 @@
 
 # assigment 0 1
-
+import math
 r=float(input("enter the radius"))
-area=3.14*r*r
-print("area of circle:" , area)
+area=math.pi*(r*r)
+print("area of circle with " + str(r) + " is: " , str(area))
 
 
 
